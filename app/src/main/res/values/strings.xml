@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PopCorn-Factory</string>
+    <string name="welcome_text">Welcome to Popcorn Factory, home of the best series and movies. Just lay down, make some popcorn and enjoy!</string>
+    <string name="start_button">Get me in!</string>
+    <string name="series">Series</string>
+    <string name="movies">Movies</string>
+    <string name="moviesnseries">Movies and Series</string>
+    <string name="descripcionApp">Welcome to Popcorn Factory, home of the best series and movies. Just lay down, make some popcorn and enjoy!</string>
+    <string name="botonMenu">GET ME IN!</string>
+    <string name="title_activity_catalog">CatalogActivity</string>
+</resources>
