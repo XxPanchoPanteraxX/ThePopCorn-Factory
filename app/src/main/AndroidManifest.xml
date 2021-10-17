@@ -9,11 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PopCornFactory">
-        <activity android:name=".MovieDetail"></activity>
-        <activity android:name=".CatalogActivity" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+        <activity android:name="preciado.franncisco.popcorn_factory.PurchaseSummaryActivity"/>
+        <activity android:name="preciado.franncisco.popcorn_factory.SeatSelectionActivity" />
+        <activity android:name="preciado.franncisco.popcorn_factory.MediaDetail" />
+        <activity android:name="preciado.franncisco.popcorn_factory.CatalogActivity" />
+        <activity android:name="preciado.franncisco.popcorn_factory.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

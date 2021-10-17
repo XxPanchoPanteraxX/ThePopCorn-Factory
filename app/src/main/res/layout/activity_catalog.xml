@@ -4,28 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CatalogActivity"
-    android:background="@color/almostblack"
-    android:orientation="vertical">
-
-    <TextView
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:background="@color/start_background">
+    <LinearLayout
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:fontFamily="sans-serif-condensed"
-        android:text="@string/moviesnseries"
-        android:textColor="@color/buttonBackground"
-        android:paddingBottom="15dp"
-        android:paddingLeft="20dp"
-        android:paddingTop="15dp"
-        />
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/tvMoviesTitle"
+            android:text="@string/movies"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/yellow"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_weight="3"
+            android:layout_marginLeft="20dp"
+            android:background="@color/yellow"/>
+
+    </LinearLayout>
 
     <GridView
-        android:id="@+id/movies_catalog"
+        android:id="@+id/gvMovies"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:numColumns="3"
-        android:paddingHorizontal="4dp"
-        android:verticalSpacing="15dp"/>
+        android:numColumns="3" />
+
 </LinearLayout>

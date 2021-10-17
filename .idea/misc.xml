@@ -7,7 +7,11 @@
         <entry key="..\:/Users/francisco/AndroidStudioProjects/PopCornFactory2/app/src/main/res/layout/activity_catalog.xml" value="1.1032934131736527" />
         <entry key="..\:/Users/francisco/AndroidStudioProjects/PopCornFactory2/app/src/main/res/layout/activity_main.xml" value="0.17983789260385005" />
         <entry key="..\:/Users/francisco/AndroidStudioProjects/PopCornFactory2/app/src/main/res/layout/activity_movie_detail.xml" value="0.18667679837892603" />
+        <entry key="..\:/Users/francisco/AndroidStudioProjects/PopCornFactory2/app/src/main/res/layout/activity_purchase_summary.xml" value="0.1831306990881459" />
+        <entry key="..\:/Users/francisco/AndroidStudioProjects/PopCornFactory2/app/src/main/res/layout/activity_seat_selection.xml" value="0.1831306990881459" />
+        <entry key="..\:/Users/francisco/AndroidStudioProjects/PopCornFactory2/app/src/main/res/layout/activity_welcome.xml" value="0.1831306990881459" />
         <entry key="..\:/Users/francisco/AndroidStudioProjects/PopCornFactory2/app/src/main/res/layout/cell_movie.xml" value="0.18667679837892603" />
+        <entry key="..\:/Users/francisco/AndroidStudioProjects/PopCornFactory2/app/src/main/res/layout/media_layout.xml" value="0.1831306990881459" />
       </map>
     </option>
   </component>
